@@ -1,0 +1,104 @@
+body {
+    background-image: url("Cloud.jpg"); /* Replace with your video URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  #myImage {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px; /* Adjust the width as needed */
+    
+  }
+  
+
+ 
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 50px;
+}
+ 
+.weather-card {
+   
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 450px;
+    height: 500px;
+}
+ 
+.weather-card:hover {
+    transform: scale(1.05);
+}
+ 
+#city-input {
+    padding: 15px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: black;
+}
+ 
+#city-input:focus {
+    outline: none;
+    border-color: #2196F3;
+}
+ 
+#city-input::placeholder {
+    color: #aaa;
+}
+ 
+#city-input-btn {
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+#city-input-btn:hover {
+    background-color: #1565C0;
+}
+ .weather-card h1{
+    color:black;
+    
+ }
+ 
+#weather-info {
+    display: none;
+}
+ 
+ 
+#temperature {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+ 
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ 
+#wind-speed {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+ 
+#date {
+    font-size: 20px;
+
+}
